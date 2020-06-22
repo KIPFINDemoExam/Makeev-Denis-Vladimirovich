@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="AddProduct" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="Name" Width="50" Height="30"/>
-        <TextBox x:Name="Cost"/>
-        <TextBox x:Name="description"/>
-        <TextBox x:Name="manufacturer"/>
-        <Button Text ="Добавить" ></Button>
+        <TextBox x:Name="Name" Height="30" Margin="301,164,353,225">Введите название</TextBox>
+        <TextBox x:Name="Cost" Height="30" Margin="301,199,353,190">Введите стоимость</TextBox>
+        <TextBox x:Name="description" Height="30" Margin="301,234,353,155">Введите описание</TextBox>
+        <TextBox x:Name="manufacturer" Height="30" Margin="301,269,353,120">Введите призводителя</TextBox>
+        <Button  Width="70" Height="30" Content ="Добавить" Click="FinalAdd" Margin="336,304,386,85"></Button>
     </Grid>
 </Window>

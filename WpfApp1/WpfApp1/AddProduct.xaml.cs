@@ -25,10 +25,11 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
-        public void FinalAdd()
+        private void FinalAdd(object sender, RoutedEventArgs e)
         {
             double cost = Int32.Parse(Cost.Text);
-            if (cost < 0) {
+            if (cost < 0)
+            {
                 MessageBox.Show("пожалуйста,введите число которое больше нуля");
             }
             else
@@ -62,7 +63,6 @@ namespace WpfApp1
                     connect.Close();
                 }
             }
-            
         }
     }
 }
