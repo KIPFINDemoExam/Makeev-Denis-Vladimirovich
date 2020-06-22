@@ -67,7 +67,8 @@ namespace WpfApp1
 
         private void Add_Product(object sender, RoutedEventArgs e)
         {
-
+            AddProduct s = new AddProduct();
+            s.Show();
         }
     }
 }
