@@ -9,5 +9,7 @@
     
     <Grid x:Name="listOfProducts">
         <ListBox x:Name="lstBox"></ListBox>
+        <TextBox x:Name="search" Text="Введите имя товара которое для поиска" ></TextBox>
+        
     </Grid>
 </Window>
